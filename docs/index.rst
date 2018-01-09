@@ -9,7 +9,7 @@ Micro:bit - Piccola scheda per grandi progetti
 Contenuti:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Progetti
 
    numeriprimi.rst
