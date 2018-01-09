@@ -18,10 +18,11 @@ Disegna una serie di tre cuori.
 Fase 2
 ++++++
 
-Prova ad inserire una pausa tra un'immagine e l'altra.
+Modifica le immagini della serie e prova ad inserire una pausa tra un'immagine e l'altra.
 
 .. image:: ./images/cuorelampeggiante_contempo.png
 
-Attiva l'immagine solo se Micro:Bit viene scosso. L'agitazione è un tipo di input che trovi nel menu ``Ingressi``.
+Attiva l'immagine solo se Micro:Bit viene scosso.
+L'agitazione è un tipo di input che trovi nel menu ``Ingressi``.
 
 .. image:: ./images/cuorelampeggiante_agitazione.png
