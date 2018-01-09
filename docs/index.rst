@@ -13,7 +13,7 @@ Contenuti:
    :caption: Progetti
 
    numeriprimi.rst
-
+   cuorelampeggiante.rst
 
 Indici e tavole
 ===============
