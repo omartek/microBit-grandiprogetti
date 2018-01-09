@@ -13,7 +13,7 @@ Fase 2
 
 Disegna una serie di tre cuori.
 
-.. image:: ./images/cuoreLampeggiante.png
+.. image:: ./images/cuorelampeggiante.png
 
 Fase 2
 ++++++
