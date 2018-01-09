@@ -14,6 +14,7 @@ Contenuti:
 
    numeriprimi.rst
    cuorelampeggiante.rst
+   cartaforbicisasso.rst
 
 Indici e tavole
 ===============
