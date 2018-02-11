@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-CODING a 360 gradi
+Micro:bit - Piccola scheda per grandi progetti
 ==============================================
 
 Contenuti:
@@ -12,9 +12,9 @@ Contenuti:
    :maxdepth: 1
    :caption: Progetti
 
-   /microbit/index.rst
-   /pythoneasy/primoesercizio.rst
-   /scratch/index.rst
+   numeriprimi.rst
+   cuorelampeggiante.rst
+   cartaforbicisasso.rst
 
 Indici e tavole
 ===============
