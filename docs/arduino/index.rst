@@ -12,4 +12,4 @@ Contenuti:
    :maxdepth: 1
    :caption: Progetti
 
-   softwarearduino.rsts
+   softwarearduino.rst
