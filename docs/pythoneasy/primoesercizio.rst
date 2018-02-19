@@ -47,7 +47,7 @@ Utilizzando il comando ``len(frase)`` si ottiene la lunghezza della stringa::
 Esercizi di inversione e codifica di stringhe di testo
 ------------------------------------------------------
 
-Faciamo un'animazione ASCII. Per impostare una velocità serve la libreria **time** che contiene la funzione **sleep**::
+Faciamo un'animazione ASCII. Per impostare una velocità serve la libreria ``time`` che contiene la funzione ``sleep``::
 
   #ASCII animati
   import time
@@ -56,7 +56,7 @@ Faciamo un'animazione ASCII. Per impostare una velocità serve la libreria **tim
 
   while 5>3:          #fintantochè si verifica la condizione
   print("->")         #e cioè per sempre
-  time.sleep (0.2)    #si potrebbe usare la costante TRUE
+  time.sleep (0.2)    #si potrebbe usare la costante True
   print("-->")
   time.sleep (0.2)
   print("--->")
@@ -112,6 +112,15 @@ O sostituendo tutte le lettere::
   for i in frase:
   print (chr(ord(i)+chiavesegreta))
 
+Acquisizione dati tramite INPUT
+-------------------------------
+
+Per ottenere informazione dall'utente si memorizza una stringa dentro una variabile utilizzando il comando ``ìnput``::
+
+  nome=input("Come ti chiami? ")
+  while True:
+    print("Ciao ",nome)
+  print(type(nome))
 
 .. note::
   Questa è una nota.
