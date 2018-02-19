@@ -15,6 +15,7 @@ Contenuti:
    /microbit/index.rst
    /pythoneasy/index.rst
    /scratch/index.rst
+   /arduino/index.rst
 
 Indici e tavole
 ===============
