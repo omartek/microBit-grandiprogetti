@@ -14,3 +14,4 @@ Contenuti:
 
    primoesercizio.rst
    secondoesercizio.rst
+   eserciziLD.rst

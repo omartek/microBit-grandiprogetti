@@ -5,21 +5,21 @@ Prima istruzione di scrittura a video (output standard)
 ------------------------------------------------------------
 Inseriamo la nostra prima istruzione che invia al monitor (standard I/O) di visualizzare una stringa di caratteri::
 
- print ("Ciao")
+ print ('Ciao')
 
 Ciclo infinito:
 mentre la condizione è vera esegui il comando **indentato**::
 
   while True:
-    print("Ciao")
+    print('Ciao')
 
 Interrompi premendo Ctrl+x
 
 Crea una variabile contenente qualcosa tipo **Ciao**::
 
- frase="Ciao"
+ frase='Ciao'
 
-Ora visualizza i singoli caratteri::
+Ora visualizza i singoli caratteri da shell::
 
   frase[0]
   frase[1]
@@ -52,61 +52,61 @@ Faciamo un'animazione ASCII. Per impostare una velocità serve la libreria ``tim
   #ASCII animati
   import time
 
-  frase="ciao"
+  frase='ciao'
 
   while 5>3:          #fintantochè si verifica la condizione
-  print("->")         #e cioè per sempre
+  print('->')         #e cioè per sempre
   time.sleep (0.2)    #si potrebbe usare la costante True
-  print("-->")
+  print('-->')
   time.sleep (0.2)
-  print("--->")
+  print('--->')
   time.sleep (0.2)
-  print("---->")
+  print('---->')
   time.sleep (0.2)
-  print("----->")
+  print('----->')
   time.sleep (0.2)
-  print("---->")
+  print('---->')
   time.sleep (0.2)
-  print("--->")
+  print('--->')
   time.sleep (0.2)
-  print("-->")
+  print('-->')
   time.sleep (0.2)
-  print("-->")
+  print('-->')
 
 Visualizzare il contenuto di una lista di stringhe::
 
-  frase=["ciao","tutto bene","sto bene"]
+  frase=['ciao','tutto bene','sto bene']
   for i in frase:
   print (i)
 
 Codificare sostituendo le vocali::
 
   # sostituire le vocali
-    frase="ciao"
+    frase='ciao'
     for i in frase:
-    if i=="a":
-      print ("8")
-    elif i=="e":
-        print ("5")
-    elif i=="i":
-        print ("3")
-    elif i=="o":
-      print ("2")
-    elif i=="e":
-      print ("9")
+    if i=='a':
+      print ('8')
+    elif i=='e':
+        print ('5')
+    elif i=='i':
+        print ('3')
+    elif i=='o':
+      print ('2')
+    elif i=='e':
+      print ('9')
     else:
       print (i)
 
 O sostituendo tutte le lettere::
 
   # conversione in ascii
-  frase="ciao"
+  frase='ciao'
 
   for i in frase:
     print (ord(i))
 
   # conversione in ascii con incremento
-  frase="ciao"
+  frase='ciao'
   chiavesegreta=4;
 
   for i in frase:
@@ -117,9 +117,9 @@ Acquisizione dati tramite INPUT
 
 Per ottenere informazione dall'utente si memorizza una stringa dentro una variabile utilizzando il comando ``ìnput``::
 
-  nome=input("Come ti chiami? ")
+  nome=input('Come ti chiami? ')
   while True:
-    print("Ciao ",nome)
+    print('Ciao ',nome)
   print(type(nome))
 
 .. note::
