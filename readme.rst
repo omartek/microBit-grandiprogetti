@@ -6,3 +6,5 @@ Raccolta di progetti da realizzare con Mibro:Bit
 <https://www.hackster.io>
 
 <https://www.weturtle.org/>
+
+<http://bitbloq.bq.com/#/>
