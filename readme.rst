@@ -1,7 +1,10 @@
 Raccolta di progetti da realizzare con Mibro:Bit
 =================================================
 
-versione-readthedocs_
+Clicca qui per la versione-readthedocs_ del testo.
+
+Siti utili per progetti didattici
+---------------------------------
 
 hackster.io_
 
