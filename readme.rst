@@ -1,10 +1,15 @@
 Raccolta di progetti da realizzare con Mibro:Bit
 =================================================
 
-<http://microbit-grandiprogetti.readthedocs.io/en/latest/>
+versione readthedocs_
+hackster.io_
+weturtle_
+bitbloq_
 
-<https://www.hackster.io>
+.. _versione readthedocs: http://microbit-grandiprogetti.readthedocs.io/en/latest/
 
-<https://www.weturtle.org/>
+.. _hackster.io: https://www.hackster.io
 
-<http://bitbloq.bq.com/#/>
+. _weturtle: https://www.weturtle.org/
+
+.. _bitbloq: http://bitbloq.bq.com/#/
