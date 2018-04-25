@@ -14,6 +14,9 @@ bitbloq_
 
 edublocks_
 
+trinket_
+
+
 
 .. _versione-readthedocs: http://microbit-grandiprogetti.readthedocs.io/en/latest/
 
@@ -24,3 +27,5 @@ edublocks_
 .. _bitbloq: http://bitbloq.bq.com/#/
 
 .. _edublock: https://edublocks.org/#raspberrypi
+
+.. _trinket: https://trinket.io/
