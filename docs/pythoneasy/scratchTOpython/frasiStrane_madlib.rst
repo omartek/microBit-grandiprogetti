@@ -1,5 +1,6 @@
 Silly Story
 ===========
+
 We can begin by writing a simple story and then looking for words to replace. This is a slightly edited section from the Simple English Wikipedia entry on ice cream:
 
   Ice cream is a frozen dessert made from cream, with added flavours and sweeteners. This mixture is quickly frozen while it is stirred, so that large ice crystals do not form. Some ice cream is made with carrageenan, extracted from seaweed, so that it is not sticky. There are many different flavours of ice cream, such as chocolate and vanilla. Ice cream often has things added to it for flavour, like chocolate chips, nuts, or fruit
@@ -15,13 +16,13 @@ Now let’s look at how you could use Python to create a Mad Libs–style game. 
 #. Insert these variable values into the strings to complete the paragraph.
 
 Step 1 and 2
--------------
+++++++++++++
 In Python, asking the user for input and assigning the value to a variable can be accomplished in a single line::
 
   answer = input('What is the meaning of life? ')
 
 Step 3
-------
+++++++
 You can then use this variable in a print statement using simple string concatenation::
 
   print('The meaning of life is ' + answer + '.')

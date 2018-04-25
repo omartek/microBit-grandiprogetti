@@ -1,6 +1,17 @@
 Esercizio iniziale
 ==================
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Progetti Scratch to Pyhton
+
+   calcola_età_cane.rst
+   FizzBuzz_generator.rst
+   frasiStrane_madlib.rst
+   generatore_Username_casuale.rst
+   lista_da_elenco_nomi.rst
+   numeriPrimi.rst
+
 Assegnazione di variabili::
 
   valore = 10

@@ -1,6 +1,9 @@
 Ricerca dei numeri primi
 ========================
 
+Esercizio da svolgere
++++++++++++++++++++++
+
 Scivere un programma per la ricerca dei numeri primi contenuti nei primi n.
 
 Per verificare se un numero è primo devi controllare che sia divisibile solo per se stesso ed 1.
