@@ -5,7 +5,7 @@ Esercizio iniziale
    :maxdepth: 1
    :caption: Progetti Scratch to Pyhton
 
-   calcola_età_cane.rst
+   calcola_eta_cane.rst
    FizzBuzz_generator.rst
    frasiStrane_madlib.rst
    generatore_Username_casuale.rst

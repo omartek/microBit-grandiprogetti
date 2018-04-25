@@ -14,7 +14,7 @@ Contenuti:
 
    primoesercizio.rst
    secondoesercizio.rst
-   eserciziLD.rst
+   esercizi_LinuxDay18.rst
    ./scratchTOpython/index.rst
 
 

@@ -12,6 +12,9 @@ weturtle_
 
 bitbloq_
 
+edublocks_
+
+
 .. _versione-readthedocs: http://microbit-grandiprogetti.readthedocs.io/en/latest/
 
 .. _hackster.io: https://www.hackster.io
@@ -19,3 +22,5 @@ bitbloq_
 .. _weturtle: https://www.weturtle.org/
 
 .. _bitbloq: http://bitbloq.bq.com/#/
+
+.. _edublock: https://edublocks.org/#raspberrypi

@@ -5,6 +5,7 @@ Esercizio da svolgere
 +++++++++++++++++++++
 
 Per realzizare il seguente programma servirà:
+
 * creare due liste di nome/aggettivi
 * estrarre da ogni lista un valore casuale
 * estrarre due numeri ad una cifra casuali
