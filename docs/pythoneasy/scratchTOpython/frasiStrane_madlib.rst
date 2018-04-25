@@ -30,6 +30,7 @@ You can then use this variable in a print statement using simple string concaten
 So, to make the Mad Libs game, you can begin by asking the user for a load of words, and finish by inserting them into some strings that will be printed.
 
 Here is the code for a complete Python program, and below that is a Trinket version for you to test out::
+  
   noun_1 = input("Give me a plural noun ")
   verb = input("Give me a verb ending in ed ")
   noun_2 = input("Give me another plural noun ")
