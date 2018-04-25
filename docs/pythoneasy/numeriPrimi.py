@@ -1,6 +1,6 @@
 import time
-t1=time.time()
-t=time.time()-t1
+t1=time.time() # funzione introdotta per calcolare il tempo impiegato nel calcolo in secondi
+t=time.time()-t1 # time.time() restituisce il tempo trascorso dal capodanno del 1970
 print(t)
 
 for i in range(2,100):
