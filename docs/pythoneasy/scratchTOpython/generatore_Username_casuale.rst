@@ -12,6 +12,7 @@ Per realzizare il seguente programma servirà:
 * unire le quattro quantità
 
 ::
+  
   from random import randint,choice
 
   nomi=['omar','mario','alberto','giovanni']
