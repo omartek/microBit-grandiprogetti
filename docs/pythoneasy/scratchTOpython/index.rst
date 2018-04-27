@@ -11,6 +11,8 @@ Esercizio iniziale
    generatore_Username_casuale.rst
    lista_da_elenco_nomi.rst
    numeriPrimi.rst
+   giocare_con_stringhe.rst
+   cerca_errore.rst
 
 Assegnazione di variabili::
 

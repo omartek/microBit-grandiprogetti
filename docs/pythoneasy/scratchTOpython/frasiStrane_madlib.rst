@@ -1,51 +1,54 @@
-Silly Story
-===========
+Storie sciocche
+===============
 
-We can begin by writing a simple story and then looking for words to replace. This is a slightly edited section from the Simple English Wikipedia entry on ice cream:
+Esercizio da svolgere
++++++++++++++++++++++
 
-  Ice cream is a frozen dessert made from cream, with added flavours and sweeteners. This mixture is quickly frozen while it is stirred, so that large ice crystals do not form. Some ice cream is made with carrageenan, extracted from seaweed, so that it is not sticky. There are many different flavours of ice cream, such as chocolate and vanilla. Ice cream often has things added to it for flavour, like chocolate chips, nuts, or fruit
+Possiamo iniziare scrivendo una storia semplice e poi cercando parole da sostituire. Questa è una sezione leggermente modificata dalla voce Simple English Wikipedia sul gelato
 
-You can use this passage for your game if you like, or come up with your own version. Now that we have the basic text, we can replace some of the words, such as nouns and verbs. Here’s an example.
+  Il gelato è un dessert surgelato a base di panna, con aggiunta di aromi e dolcificanti. Questa miscela viene rapidamente congelata mentre viene agitata, in modo che non si formino cristalli di ghiaccio grandi. Alcuni gelati sono fatti con carragenina, estratto da alghe, in modo che non sia appiccicoso. Ci sono molti diversi gusti di gelato, come cioccolato e vaniglia. Il gelato spesso ha delle aggiunte per sapore, come gocce di cioccolato, noci o frutta.
 
-  Ice cream is a frozen dessert made from **plural noun** ,with added flavours and sweeteners. This mixture is quickly frozen while it is **verb ending in ed** ,so that large **plural noun** do not form. Some ice cream is made with **noun** ,extracted from seaweed, so that it is not sticky. There are many different flavours of ice cream, such as **food** and **food** . Ice cream often has things added to it for flavour, like **noun**, **noun** , or **noun**.
+Puoi usare questo passaggio per il tuo gioco, se lo desideri, o trovare la tua versione. Ora che abbiamo il testo di base, possiamo sostituire alcune delle parole, come nomi e verbi. Ecco un esempio.
 
-Now let’s look at how you could use Python to create a Mad Libs–style game. The algorithm is fairly simple:
+  Il gelato è un dessert surgelato a base di **nome plurale**, con aggiunta di aromi e dolcificanti. Questa miscela viene rapidamente congelata mentre viene **verbo terminate in -ato**, in modo che non si formino **nome plurale**. Alcuni gelati sono fatti con **nome**, estratto da alghe, in modo che non sia **aggettivo**. Ci sono molti diversi gusti di gelato, come **cibo** e **cibo**. Il gelato spesso ha delle aggiunte per insaporire, come **cibo**, **cibo** o **cibo**.
 
-#. Ask for the user to input some words, such as plural nouns and foods
-#. Assign these inputs to variables
-#. Insert these variable values into the strings to complete the paragraph.
+Vediamo ora come usare Python per creare un gioco in stile Mad Libs. L'algoritmo è abbastanza semplice:
 
-Step 1 and 2
+#. Chiedi all'utente di inserire alcune parole, come nomi plurali e cibi
+#. Assegna questi input alle variabili
+#. Inserisci questi valori variabili nelle stringhe per completare il paragrafo.
+
+Passo 1 e 2
 ++++++++++++
-In Python, asking the user for input and assigning the value to a variable can be accomplished in a single line::
+In Python, chiedere all'utente l'input e assegnare il valore a una variabile può essere eseguito in un'unica riga::
 
-  answer = input('What is the meaning of life? ')
+  risposta = input('Qual è il senso della vita? ')
 
-Step 3
+Passo 3
 ++++++
-You can then use this variable in a print statement using simple string concatenation::
+È quindi possibile utilizzare questa variabile in un'istruzione di stampa utilizzando la semplice concatenazione di stringhe::
 
-  print('The meaning of life is ' + answer + '.')
+  print('I senso della vita è ' + risposta + '.')
 
-So, to make the Mad Libs game, you can begin by asking the user for a load of words, and finish by inserting them into some strings that will be printed.
+Quindi, per rendere il gioco Mad Libs, puoi iniziare chiedendo all'utente un carico di parole, e finiscilo inserendole in alcune stringhe che verranno stampate.
 
-Here is the code for a complete Python program, and below that is a Trinket version for you to test out::
-  
-  noun_1 = input("Give me a plural noun ")
-  verb = input("Give me a verb ending in ed ")
-  noun_2 = input("Give me another plural noun ")
-  noun_3 = input("Give me a noun ")
-  adjective = input("Give me an adjective ")
-  food_1 = input("Give me a type of food ")
-  food_2 = input("Give me another type of food ")
-  noun_4 = input("Give me a noun ")
-  noun_5 = input("and another one ")
-  noun_6 = input("Give me one last noun ")
+Ecco il codice per un programma Python completo, e qui sotto c'è una versione di Trinket che puoi testare::
 
-  print("Ice cream is a frozen dessert made from " + noun_1 + ", with added flavours and sweeteners")
-  print("This mixture is quickly frozen while it is " + verb + ", so that large " + noun_2 + " do not form.")
-  print("Some ice cream is made with " + noun_3 + " extracted from seaweed, so that it is not " + adjective)
-  print("There are many different flavours of ice cream, such as " + food_1 + " and " + food_2)
-  print("Ice cream often has things added to it for flavour, like " + noun_4 + ", " + noun_5 + " or " + noun_6)
+  nome_1 = input('Dammi un nome di cosa plurale ')
+  verbo = input('Dammi un verbo terminante in -ato ')
+  nome_2 = input('Dammi un altro nome di cosa plurale ')
+  nome_3 = input('Dammi un nome di cosa ')
+  aggettivo = input('Dammi un aggettivo')
+  cibo_1 = input('Dammi un cibo')
+  cibo_2 = input('Dammi un altro cibo')
+  nome_4 = input('Dammi un nome di cosa ')
+  nome_5 = input('un altro ancora ')
+  nome_6 = input('e un ultimo ancora.')
+
+  print('Il gelato è un dessert surgelato a base di ' + nome_1 + ', con aggiunta di aromi e dolcificanti.')
+  print('Questa miscela viene rapidamente congelata mentre viene ' + verb + ', in modo che non si formino ' + nome_2)
+  print('Alcuni gelati sono fatti con ' + nome_3 + ', estratto da alghe, in modo che non sia ' + aggettivo + '.')
+  print('Ci sono molti diversi gusti di gelato, come ' + cibo_1 + ' e ' + cibo_2+ '.')
+  print('Il gelato spesso ha delle aggiunte per insaporire, come ' + nome_4 + ', ' + nome_5 + ' o ' + nome_6 + '.')
 
 Prova a riprodurre questo programma in Scratch!
