@@ -13,3 +13,4 @@ Contenuti:
    :caption: Progetti
 
    primo_Scratch.rst
+   disegnoEgeometria.rst

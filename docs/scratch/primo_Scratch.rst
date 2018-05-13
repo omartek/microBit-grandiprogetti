@@ -1,5 +1,5 @@
-Indice di Scratch
-=================
+Progetti con testi: racconti e quiz
+===================================
 
 Serie di progetti
 -----------------

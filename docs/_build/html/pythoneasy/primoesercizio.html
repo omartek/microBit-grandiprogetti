@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Esercizi con le stringhe: print e ripetizioni &mdash; microbit-progetti 1 documentazione</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Indice"
+              href="../genindex.html"/>
+        <link rel="search" title="Cerca" href="../search.html"/>
+    <link rel="top" title="microbit-progetti 1 documentazione" href="../index.html"/>
+        <link rel="up" title="Python - Piccoli programmi in Python" href="index.html"/>
+        <link rel="next" title="Esercizi con i numeri" href="secondoesercizio.html"/>
+        <link rel="prev" title="Python - Piccoli programmi in Python" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> microbit-progetti
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Progetti</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../microbit/index.html">Micro:bit - Piccola scheda per grandi progetti</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Python - Piccoli programmi in Python</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Esercizi con le stringhe: print e ripetizioni</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prima-istruzione-di-scrittura-a-video-output-standard">Prima istruzione di scrittura a video (output standard)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#esercizi-di-inversione-e-codifica-di-stringhe-di-testo">Esercizi di inversione e codifica di stringhe di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#acquisizione-dati-tramite-input">Acquisizione dati tramite INPUT</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="secondoesercizio.html">Esercizi con i numeri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="esercizi_LinuxDay18.html">Laboratorio Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scratchTOpython/index.html">Esercizio iniziale</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../scratch/index.html">Scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arduino/index.html">Arduino - la prima scheda per prototipazione rapida</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">microbit-progetti</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Python - Piccoli programmi in Python</a> &raquo;</li>
+        
+      <li>Esercizi con le stringhe: print e ripetizioni</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pythoneasy/primoesercizio.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="esercizi-con-le-stringhe-print-e-ripetizioni">
+<h1>Esercizi con le stringhe: print e ripetizioni<a class="headerlink" href="#esercizi-con-le-stringhe-print-e-ripetizioni" title="Link a questa intestazione">¶</a></h1>
+<div class="section" id="prima-istruzione-di-scrittura-a-video-output-standard">
+<h2>Prima istruzione di scrittura a video (output standard)<a class="headerlink" href="#prima-istruzione-di-scrittura-a-video-output-standard" title="Link a questa intestazione">¶</a></h2>
+<p>Inseriamo la nostra prima istruzione che invia al monitor (standard I/O) di visualizzare una stringa di caratteri:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Ciao&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Ciclo infinito:
+mentre la condizione è vera esegui il comando <strong>indentato</strong>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ciao&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Interrompi premendo Ctrl+x</p>
+<p>Crea una variabile contenente qualcosa tipo <strong>Ciao</strong>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">frase</span><span class="o">=</span><span class="s1">&#39;Ciao&#39;</span>
+</pre></div>
+</div>
+<p>Ora visualizza i singoli caratteri da shell:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">frase</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">frase</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">frase</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">frase</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Anche in ordine inverso:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="n">frase</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">frase</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">frase</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">frase</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">frase</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usiamo ora un ciclo per compiere la stessa operazione:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+ <span class="nb">print</span> <span class="n">frase</span><span class="p">[</span><span class="mi">3</span><span class="o">-</span><span class="n">i</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Utilizzando il comando <code class="docutils literal"><span class="pre">len(frase)</span></code> si ottiene la lunghezza della stringa:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">frase</span><span class="p">)):</span>
+  <span class="nb">print</span> <span class="n">frase</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">frase</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">i</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="esercizi-di-inversione-e-codifica-di-stringhe-di-testo">
+<h2>Esercizi di inversione e codifica di stringhe di testo<a class="headerlink" href="#esercizi-di-inversione-e-codifica-di-stringhe-di-testo" title="Link a questa intestazione">¶</a></h2>
+<p>Faciamo un&#8217;animazione ASCII. Per impostare una velocità serve la libreria <code class="docutils literal"><span class="pre">time</span></code> che contiene la funzione <code class="docutils literal"><span class="pre">sleep</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#ASCII animati</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="n">frase</span><span class="o">=</span><span class="s1">&#39;ciao&#39;</span>
+
+<span class="k">while</span> <span class="mi">5</span><span class="o">&gt;</span><span class="mi">3</span><span class="p">:</span>          <span class="c1">#fintantochè si verifica la condizione</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)</span>         <span class="c1">#e cioè per sempre</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>    <span class="c1">#si potrebbe usare la costante True</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;--&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;---&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;----&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-----&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;----&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;---&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;--&gt;&#39;</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;--&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Visualizzare il contenuto di una lista di stringhe:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">frase</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;ciao&#39;</span><span class="p">,</span><span class="s1">&#39;tutto bene&#39;</span><span class="p">,</span><span class="s1">&#39;sto bene&#39;</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">frase</span><span class="p">:</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Codificare sostituendo le vocali:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># sostituire le vocali</span>
+  <span class="n">frase</span><span class="o">=</span><span class="s1">&#39;ciao&#39;</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">frase</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;a&#39;</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;8&#39;</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;e&#39;</span><span class="p">:</span>
+      <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;5&#39;</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;i&#39;</span><span class="p">:</span>
+      <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;3&#39;</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;o&#39;</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="s1">&#39;e&#39;</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;9&#39;</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>O sostituendo tutte le lettere:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># conversione in ascii</span>
+<span class="n">frase</span><span class="o">=</span><span class="s1">&#39;ciao&#39;</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">frase</span><span class="p">:</span>
+  <span class="nb">print</span> <span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="c1"># conversione in ascii con incremento</span>
+<span class="n">frase</span><span class="o">=</span><span class="s1">&#39;ciao&#39;</span>
+<span class="n">chiavesegreta</span><span class="o">=</span><span class="mi">4</span><span class="p">;</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">frase</span><span class="p">:</span>
+<span class="nb">print</span> <span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="n">chiavesegreta</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="acquisizione-dati-tramite-input">
+<h2>Acquisizione dati tramite INPUT<a class="headerlink" href="#acquisizione-dati-tramite-input" title="Link a questa intestazione">¶</a></h2>
+<p>Per ottenere informazione dall&#8217;utente si memorizza una stringa dentro una variabile utilizzando il comando <code class="docutils literal"><span class="pre">ìnput</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nome</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Come ti chiami? &#39;</span><span class="p">)</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ciao &#39;</span><span class="p">,</span><span class="n">nome</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">nome</span><span class="p">))</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Questa è una nota.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avvertimento</p>
+<p class="last">Questo è un warning.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="secondoesercizio.html" class="btn btn-neutral float-right" title="Esercizi con i numeri" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Python - Piccoli programmi in Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, omartek.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: ''
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
