@@ -18,7 +18,7 @@ trinket_
 
 
 
-.. _versione-readthedocs: http://microbit-grandiprogetti.readthedocs.io/en/latest/
+.. _versione-readthedocs: http://microbit-grandiprogetti.readthedocs.io/it/latest/index.html
 
 .. _hackster.io: https://www.hackster.io
 
