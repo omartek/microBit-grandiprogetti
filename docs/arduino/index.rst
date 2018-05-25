@@ -13,3 +13,4 @@ Contenuti:
    :caption: Progetti
 
    softwarearduino.rst
+   Hbridge-hg7881.rst
