@@ -16,6 +16,7 @@ Contenuti:
    /pythoneasy/index.rst
    /scratch/index.rst
    /arduino/index.rst
+   /openscad/index.rst
 
 Indici e tavole
 ===============
