@@ -10,3 +10,6 @@ Contenuti:
    :caption: Progetti
 
    parallelepipedi.rst
+   traslazioneErotazione.rst
+   operazioniBooleane.rst
+   esempi.rst
