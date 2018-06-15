@@ -24,8 +24,8 @@ Di seguito un esempio di solido composto da tre parallelepipedi rettangoli.
 
 .. image:: ./images/parallelepipedi_composizione.png
 
-Solido composto con fori
-*************************
+Solido composto da parallelepipedi con fori
+*******************************************
 
 Il solido dell'esempio precedente con l'aggiunta di fori. Leggere i commenti alle istruzioni per chiarimenti.
 
@@ -62,3 +62,44 @@ Il solido dell'esempio precedente con l'aggiunta di fori. Leggere i commenti all
   }
 
 .. image:: ./images/esempio_staffaConFori.png
+
+Modello composto usando pezzi ripetitivi: module()
+**************************************************
+
+Se un modello è composto da parti identiche o simili è possibile definire un ``module``, una procedura/funzione che contenga le istruzioni per la modellazione e che può essere richiamata quando necessario, ciò riduce la lunghezza del codice e lo rende più leggibile.
+
+Il modello che segue è realizzato usando Openscad installato in locale e non la web-app Openscad.net usata in precedenza. Il simbolo di percentuale ``%`` rende il solido trasparente per migliorare la visualizzazione del modello in fase questa fase di progettazione.
+
+::
+
+  //il modulo angolare accetta 4 parametri che ne definiscono la geometria
+  module angolare(a,b,h,sp){
+    cube([a,b,sp],false);
+    cube([a,sp,h],false);
+    }
+
+  //prima chiamata al modulo per la creazione della base
+  angolare(50,50,50,4);
+
+  //seconda chiamata al modulo per la creazione del secondo angolare
+  translate([0,50-20,4])
+  %angolare(50,20,50-4,4);
+
+  translate([10,40,0])
+  cylinder(40,2,2,true);
+
+  translate([40,40,0])
+  cylinder(40,2,2,true);
+
+.. image:: ./images/istruzione_module.png
+
+Per realizzare il pezzo correttamente forato bisognerà utilizzare i comandi ``difference()`` e ``union()``.
+Nel listato che segue:
+* ``color("red")`` serve a migliorare la visualizzazione
+* ``%`` dona trasparenza al pezzo di base
+* ``#`` evidenzia i cilindri orizzontali
+Altri modificatori esistenti, ed utili durante la fase di debug, sono:
+* ``!`` per evidenziare unicamente il solido preceduto da questo simbolo
+* ``*`` per escludere dalla visualizzazione il solido preceduto da questo simbolo
+
+.. image:: ./images/istruzione_evidenziaPezzi.png
