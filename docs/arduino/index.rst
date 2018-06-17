@@ -15,3 +15,4 @@ Contenuti:
    softwarearduino.rst
    Hbridge-hg7881.rst
    servo-movimento.rst
+   playTone.rst
