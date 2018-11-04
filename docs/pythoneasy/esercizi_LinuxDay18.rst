@@ -2,8 +2,9 @@ Laboratorio Python
 ==================
 
 Qui trovi la versione .odt e .pdf
-:download:`File .skp di solidi complessi <./laboratorioPython/pythonLab_per_stampare.odt>`.
-:download:`File .skp di solidi complessi <./file/pythonLab_per_stampare.odt>`.
+:download:`File .odt <./laboratorioPython/pythonLab_per_stampare.odt>`.
+
+:download:`File .pdf <./laboratorioPython/pythonLab_per_stampare.pdf>`.
 
 Avviare IDLE3
 

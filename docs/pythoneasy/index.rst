@@ -15,6 +15,7 @@ Contenuti:
    primoesercizio.rst
    secondoesercizio.rst
    esercizi_LinuxDay18.rst
+   cartaforbicisasso.rst
    ./scratchTOpython/index.rst
 
 
