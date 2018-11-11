@@ -1,6 +1,9 @@
 Come utilizzare un Joypad con Scratch
 =====================================
 
+.. image:: ./images/utilizzare_joypad_1.png
+
+
 È possibile utilizzare un joypad-usb per giocare Scratch?
 **Ma certo!**
 
@@ -22,5 +25,5 @@ e in Windows a questo `indirizzo Sourceforge <https://sourceforge.net/projects/a
 
 Come **seconda cosa** devi aprire il programma e configurarlo; ricordati di lasciarlo in esecuzione in background
 
-.. image:: ./images/utilizzare_joypad.png
+.. image:: ./images/utilizzare_joypad_2.png
 
