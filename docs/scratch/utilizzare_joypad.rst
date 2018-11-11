@@ -21,9 +21,9 @@ In Linux è disponibile questo programma tramite PPA:
  sudo apt-get update
  sudo apt-get install antimicro
 
-e in Windows a questo `indirizzo Sourceforge <https://sourceforge.net/projects/antimicro.mirror/files/2.23/>`_
+e in Windows a questo `indirizzo Sourceforge <https://sourceforge.net/projects/antimicro.mirror/files/2.23/>`_.
 
-Come **seconda cosa** devi aprire il programma e configurarlo; ricordati di lasciarlo in esecuzione in background
+Come **seconda cosa** devi aprire il programma e configurarlo; ricordati di lasciarlo in esecuzione in background.
 
 .. image:: ./images/utilizzare_joypad_2.png
 
