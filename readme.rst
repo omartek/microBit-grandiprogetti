@@ -16,6 +16,7 @@ edublocks_
 
 trinket_
 
+editorReST-online_
 
 
 .. _versione-readthedocs: http://microbit-grandiprogetti.readthedocs.io/it/latest/index.html
@@ -29,3 +30,5 @@ trinket_
 .. _edublock: https://edublocks.org/#raspberrypi
 
 .. _trinket: https://trinket.io/
+
+.. _editorReST-online: http://rst.ninjs.org/

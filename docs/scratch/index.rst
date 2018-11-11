@@ -12,5 +12,6 @@ Contenuti:
    :maxdepth: 1
    :caption: Progetti
 
+   utilizzare_joypad.rst
    primo_Scratch.rst
    disegnoEgeometria.rst
