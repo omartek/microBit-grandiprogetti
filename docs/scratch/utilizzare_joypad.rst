@@ -1,19 +1,15 @@
-Come utilizzare un Jpypad con Scratch
+Come utilizzare un Joypad con Scratch
 =====================================
 
 È possibile utilizzare un joypad-usb per giocare Scratch?
-
-Ma certo!
+**Ma certo!**
 
 Serve un programma che emuli una tastiera convertendo i segnali del jpypad in lettere della tastiera.
-
 Scratch non si accorgerà che sta ricevendo i tasti mediante l'uso di un joypad.
-
 Abbinando i tasti freccia del joypad alle classiche lettere WASD potrai comandare gli eventi di Scratch.
 
 Installazione di un software per la conversione
 -----------------------------------------------
-
 Come **prima cosa** devi installare un software che si occupi della conversione.
 
 In Linux è disponibile questo programma tramite PPA:
@@ -26,5 +22,5 @@ e in Windows a questo `indirizzo Sourceforge <https://sourceforge.net/projects/a
 
 Come **seconda cosa** devi aprire il programma e configurarlo; ricordati di lasciarlo in esecuzione in background
 
-.. image:: ./images7utilizzare_joypad.png
+.. image:: ./images/utilizzare_joypad.png
 
