@@ -46,4 +46,4 @@ Giochi
 Realizzare la parte di programmazione inizialmente e, solo al termine, la veste grafica dei seguenti giochi:
 #. Tris con cambio di  simboli automatico e verifica del vincitore
 #. 7 e 1/2 con carte da scala 40
-
+#. Carta più alta vince
