@@ -1,8 +1,14 @@
 Gioco di carte: 7 e mezzo
 =========================
 
+.. contents:: Indice
+  :depth: 1
+  :local:
+
+.. note::
 :download:`File .odp con slide del progetto <./file/7eMEZZO.odp>`
 :download:`File .pdf del progetto <./file/7eMEZZO.pdf>`
+`Google slides <https://docs.google.com/presentation/d/1hQcIxclsxsYGWUUAe2GRT9Ng8iuPFZZ-gmwNeYFR9Ns/edit?usp=sharing>`_
 
 Preparare variabili, liste e valori costanti (le carte)
 -------------------------------------------------------
