@@ -1,6 +1,9 @@
 Come utilizzare un Joypad con Scratch
 =====================================
 
+:download:`File .odp con slide del progetto <./file/7eMEZZO.odp>`
+:download:`File .pdf del progetto <./file/7eMEZZO.pdf>`
+
 Preparare variabili, liste e valori costanti (le carte)
 -------------------------------------------------------
 

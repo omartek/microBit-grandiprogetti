@@ -15,3 +15,4 @@ Contenuti:
    utilizzare_joypad.rst
    primo_Scratch.rst
    disegnoEgeometria.rst
+   7emezzo.rst
