@@ -13,3 +13,4 @@ Contenuti:
    traslazioneErotazione.rst
    operazioniBooleane.rst
    esempi.rst
+   esercizi.rst
