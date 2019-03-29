@@ -16,3 +16,4 @@ Contenuti:
    primo_Scratch.rst
    disegnoEgeometria.rst
    7emezzo.rst
+   pong.rst
