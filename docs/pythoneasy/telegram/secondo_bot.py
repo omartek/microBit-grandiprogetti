@@ -20,7 +20,7 @@ def handle(msg):
     
 
 
-TOKEN = '703938665:AAF8eN9pHGgdQ6qspWNu6yFdVGWCvJc4W5c'
+TOKEN = 'codeAPI'
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()

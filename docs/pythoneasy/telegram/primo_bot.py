@@ -10,7 +10,7 @@ def on_chat_message(msg):
         if txt == 'ciao':
             bot.sendMessage(chat_id, 'ciao a te %s'%name)	
 
-TOKEN = '703938665:AAF8eN9pHGgdQ6qspWNu6yFdVGWCvJc4W5c'
+TOKEN = 'codeAPI'
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
