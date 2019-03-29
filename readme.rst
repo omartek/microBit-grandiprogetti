@@ -1,4 +1,4 @@
-Raccolta di progetti da realizzare con Mibro:Bit
+Raccolta di progetti da realizzare con Micro:Bit
 =================================================
 
 Clicca qui per la versione-readthedocs_ del testo.
