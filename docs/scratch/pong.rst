@@ -17,15 +17,15 @@ Crea il gioco PONG base come descritto nel PDF sopra allegato
 
 .. image:: ./images/PONG/PONG_rimbalzaLaPallina.png
 
-2. CREA LA **NAVICELLA**
+2. CREA LA **RACCHETTA**
 
 .. image:: ./images/PONG/PONG_muoviLaRacchetta.png
 
-3. **RIMABALZA** SULLA RACCHETTA
+3. **RIMBALZA** SULLA RACCHETTA
 
 .. image:: ./images/PONG/PONG_rimbalzaSullaRacchetta.png
 
-4. CREA IL **GAMEOVER**
+4. CREA IL **GAME OVER**
 
 .. image:: ./images/PONG/PONG_gameOver.png
 
