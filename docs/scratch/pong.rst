@@ -6,9 +6,9 @@ Gioco PONG
   :local:
 
 .. note::
-:download:`File .pdf del progetto <./file/pong_game_it.pdf>`
-Il file .pdf è presente anche `online a quest'indirizzo <http://scratched.gse.harvard.edu/resources/search/results/taxonomy%3A2499>`_
-`Guarda il progetto realizzato <https://scratch.mit.edu/projects/298295843/editor/>`_
+ :download:`File .pdf del progetto <./file/pong_game_it.pdf>`
+ Il file .pdf è presente anche `online a quest'indirizzo <http://scratched.gse.harvard.edu/resources/search/results/taxonomy%3A2499>`_
+ `Guarda il progetto realizzato <https://scratch.mit.edu/projects/298295843/editor/>`_
 
 Crea il gioco PONG base come descritto nel PDF sopra allegato
 -------------------------------------------------------------
