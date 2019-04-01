@@ -39,3 +39,11 @@ Il listato seguente esegue la lettura dei valori analogici inviati dai ricevitor
 
 .. note::
  :download:`File Fritzing .fzz del progetto <./files/IRemettitore>`
+
+
+Schema di montaggio di emettitore/ricevitore IR
+***********************************************
+
+Volendo semplificare i collegamenti esistono pcb già montati con i led necessari. I collegamenti e i valori letti sono identici a quelli sopra descritti.
+
+.. image:: ./images/IRemettitore_pcb.jpg

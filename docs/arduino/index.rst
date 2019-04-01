@@ -16,3 +16,5 @@ Contenuti:
    Hbridge-hg7881.rst
    servo-movimento.rst
    playTone.rst
+   IRemettitore.rst
+   stepper.rst
