@@ -53,4 +53,11 @@ Modifica il gioco inventando nuove funzioni
 
 .. image:: ./images/PONG/PONG_colpisciEclona.png
 
+10. CREA **OGGETTI CHE VELOCIZZANO O RALLENTANO**
+
+.. image:: ./images/PONG/PONG_boost.png
+
+11. CREA **MONETE DA RACCOGLIERE**
+
+.. image:: ./images/PONG/PONG_raccogliMonete.png
 
