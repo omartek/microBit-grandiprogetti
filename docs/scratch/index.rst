@@ -17,3 +17,4 @@ Contenuti:
    disegnoEgeometria.rst
    7emezzo.rst
    pong.rst
+   poligoniRegolari.rst
