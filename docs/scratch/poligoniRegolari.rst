@@ -35,9 +35,13 @@ Ad esempio nel triangolo equilatero gli angoli interni (α) sono tutti di 60° q
 
 Gli script da progettare sono i seguenti:
 
-+------------------------------------------------------------------+-------------------------------------------------------------------------+
-| Sprite                                                           | Codice                                                                  |
-+==================================================================+=========================================================================+
-| .. image:: ./images/poligoniRegolari/icona_triangolo.png         |  .. image:: ./images/poligoniRegolari/triangolo.png                     |
-+------------------------------------------------------------------+-------------------------------------------------------------------------+
++----------------+----------------+
+| Sprite         | Codice         |
++================+================+
+| |image0|       |  |image1|      |
++----------------+----------------+
+
+.. |image0| image:: ./images/poligoniRegolari/icona_triangolo.png
+
+.. |image1| image:: ./images/poligoniRegolari/triangolo.png
 
