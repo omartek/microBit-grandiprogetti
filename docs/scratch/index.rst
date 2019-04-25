@@ -18,3 +18,4 @@ Contenuti:
    7emezzo.rst
    pong.rst
    poligoniRegolari.rst
+   conversazione_con_messaggio.rst
