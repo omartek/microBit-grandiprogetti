@@ -19,3 +19,5 @@ Contenuti:
    pong.rst
    poligoniRegolari.rst
    conversazione_con_messaggio.rst
+   fruit_game.rst
+   lupo_e_agnello.rst

@@ -78,3 +78,28 @@ Gli script da progettare sono i seguenti:
 
 .. |image80| image:: ./images/poligoniRegolari/icona_matita.png
 .. |image81| image:: ./images/poligoniRegolari/bl_esagono.png
+
+**Esercizio svolto**
+
+`Link alprogetto ospitato sul sito di Scratch <http://scratch.mit.edu/projects/19841831/>`_
+
+Variante
+--------
+
+L’informatico cerca sempre una soluzione che faccia un minor uso di istruzioni possibile.
+Allora una soluzione interessante è quella di constatare che l’angolo supplementare nei poligoni regolari è uguale al risultato dell’operazione di 360 diviso il numero dei lati del poligono.
+Per fare questo serve introdurre il concetto di variabile, ovvero di un contenitore che può contenere un valore, molte volte numerico ma non solo, che può cambiare nel tempo, man mano che le azioni si susseguono.
+Servono per svolgere l’esercizio 2 variabili:
+* una per contenere il numero dei lati del poligono che si desidera disegnare e che viene impostata dal click sul disegno di tale poligono
+* l’altra per impostare il codice del colore con cui si vuole disegnare il poligono.
+
+-- inserire tabella --
+
+Attività da far svolgere
+------------------------
+
+Far generare alcuni poligoni con un numero superiore di lati. Attenzione sarà necessario diminuire la lunghezza del lato.
+
+**Esercizio svolto**
+
+`Link alprogetto ospitato sul sito di Scratch <http://scratch.mit.edu/projects/20098973/>'_
