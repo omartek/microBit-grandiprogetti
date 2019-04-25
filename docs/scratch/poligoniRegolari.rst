@@ -38,10 +38,43 @@ Gli script da progettare sono i seguenti:
 +----------------+----------------+
 | Sprite         | Codice         |
 +================+================+
-| |image0|       |  |image1|      |
+| |image10|      |  |image11|     |
++----------------+----------------+
+| |image20|      |  |image21|     |
++----------------+----------------+
+| |image30|      |  |image31|     |
++----------------+----------------+
+| |image40|      |  |image41|     |
++----------------+----------------+
+| |image50|      |  |image51|     |
++----------------+----------------+
+| |image60|      |  |image61|     |
++----------------+----------------+
+| |image70|      |  |image71|     |
++----------------+----------------+
+| |image80|      |  |image81|     |
 +----------------+----------------+
 
-.. |image0| image:: ./images/poligoniRegolari/icona_triangolo.png
+.. |image10| image:: ./images/poligoniRegolari/icona_triangolo.png
+.. |image11| image:: ./images/poligoniRegolari/triangolo.png
 
-.. |image1| image:: ./images/poligoniRegolari/triangolo.png
+.. |image20| image:: ./images/poligoniRegolari/icona_quadrato.png
+.. |image21| image:: ./images/poligoniRegolari/quadrato.png
 
+.. |image30| image:: ./images/poligoniRegolari/icona_pentagono.png
+.. |image31| image:: ./images/poligoniRegolari/pentagono.png
+
+.. |image40| image:: ./images/poligoniRegolari/icona_esagono.png
+.. |image41| image:: ./images/poligoniRegolari/esagono.png
+
+.. |image50| image:: ./images/poligoniRegolari/icona_matita.png
+.. |image51| image:: ./images/poligoniRegolari/bl_triangolo.png
+
+.. |image60| image:: ./images/poligoniRegolari/icona_matita.png
+.. |image61| image:: ./images/poligoniRegolari/bl_quadrato.png
+
+.. |image70| image:: ./images/poligoniRegolari/icona_matita.png
+.. |image71| image:: ./images/poligoniRegolari/bl_pentagono.png
+
+.. |image80| image:: ./images/poligoniRegolari/icona_matita.png
+.. |image81| image:: ./images/poligoniRegolari/bl_esagono.png
