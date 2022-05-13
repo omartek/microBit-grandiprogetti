@@ -14,6 +14,7 @@ Schema di montaggio con un motore
 .. image:: ./images/Hbridge_HG7881.png
 
 Pagina web con datasheet_ ed esempio di utilizzo.
+Informazioni dettagliate anche qui_.
 
 Il listato seguente comanda un motore DC collegato ai pin 12 e 11::
 
@@ -68,3 +69,4 @@ Il listato seguente comanda un motore DC collegato ai pin 12 e 11::
     }
 
 .. _datasheet: http://www.adrirobot.it/motor_driver/L9110_HG7881/motor_driver_L9110-HG7881.htm
+.. _qui: https://components101.com/modules/l293n-motor-driver-module
