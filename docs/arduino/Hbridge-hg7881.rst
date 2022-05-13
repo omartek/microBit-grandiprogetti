@@ -13,8 +13,11 @@ Schema di montaggio con un motore
 
 .. image:: ./images/Hbridge_HG7881.png
 
+.. image:: ./images/Hbridge_L298N.png
+
+
 Pagina web con datasheet_ ed esempio di utilizzo.
-Informazioni dettagliate anche qui_.
+Informazioni dettagliate anche qui_ (modello meno compatto L298N).
 
 Il listato seguente comanda un motore DC collegato ai pin 12 e 11::
 
